@@ -4,10 +4,15 @@ import router from './router'
 import store from './store'
 import './registerServiceWorker'
 
+import VueResource from 'vue-resource'
+import VueModalTor from 'vue-modaltor'
+
 Vue.config.productionTip = false
+Vue.use(VueResource)
+Vue.use(VueModalTor)
 
 new Vue({
   router,
   store,
-  render: function (h) { return h(App) }
+  render: h => h(App)
 }).$mount('#app')

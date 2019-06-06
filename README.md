@@ -1,5 +1,9 @@
 # app
 
+## API
+
+[beer-api](https://github.com/CamTosh/beer-api)
+
 ## Project setup
 ```
 npm install
